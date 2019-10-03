@@ -19,6 +19,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".mainPage" android:label="activity_lauch">
+
+        </activity>
+        <activity android:name=".loadingPage" android:label="activity_main">
+
+        </activity>
+        <activity android:name=".loginPage" android:label="activity_main_login">
+
+        </activity>
+        <activity android:name=".signUpPage" android:label="activity_main_signup">
+
+        </activity>
+
     </application>
 
 </manifest>
