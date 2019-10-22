@@ -13,7 +13,7 @@ tools:ignore="MissingDefaultResource">
     android:layout_gravity="center_horizontal"
     android:layout_margin="10dp"
     android:autoLink="web"
-    android:text="Please Scan the wristband"
+    android:text="Please Scan the NFC Tags"
     android:textStyle="bold" />
 
 <TextView

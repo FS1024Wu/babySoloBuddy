@@ -28,7 +28,7 @@
         <activity android:name=".loginPage" android:label="activity_main_login">
 
         </activity>
-        <activity android:name=".scanTagPage" android:label="activity_main_scanTag">
+        <activity android:name=".scanTagPage" android:label="activity_main_scantag">
 
         </activity>
 
