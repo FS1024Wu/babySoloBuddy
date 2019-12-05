@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Baby Buddy</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="passwordConfirm">passwordConfirm</string>
+    <string name="email">email</string>
+    <string name="phoneNumber">phoneNumber</string>
+    <string name="signUp">signUp</string>
+    <string name="forgot">forgot</string>
+    <string name="show_pwd">show_pwd</string>
+    <string name="passowrd">passowrd</string>
+    <string name="login">login</string>
+    <string name="newUser">newUser</string>
+    <string name="skip">skip</string>
+    <string name="forget_password">forget_password</string>
+    <string name="sign_up">sign_up</string>
+    <string name="read_it_together">read_it_together</string>
+    <string name="welcome_back">welcome_back</string>
+    <string name="booki">booki</string>
+
+</resources>
