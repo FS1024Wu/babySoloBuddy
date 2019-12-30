@@ -24,27 +24,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }, TIME_OUT);
 
-
-
     }
-//
-////        Handler handler = new Handler();
-////        handler.postDelayed(new Runnable() {
-////            @Override
-////            public void run() {
-////                Intent intent = new Intent(MainActivity.this, mainPage.class);
-////                startActivity(intent);
-////                Intent intent1 = new Intent(MainActivity.this, loadingPage.class);
-////                startActivity(intent1);
-////                finish();
-////
-////            }
-////        },TIME_OUT);
-//    }
-//    public void openLoadingPage(){
-//        Intent intent =  new Intent(this, loadingPage.class);
-//        startActivity(intent);
-//    }
-
 
 }

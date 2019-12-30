@@ -17,5 +17,6 @@
     <string name="read_it_together">read_it_together</string>
     <string name="welcome_back">welcome_back</string>
     <string name="booki">booki</string>
+    <string name="title_activity_maps">Map</string>
 
 </resources>

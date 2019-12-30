@@ -33,7 +33,6 @@ public class loginPage extends AppCompatActivity {
      String username;
      String password;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,13 +43,11 @@ public class loginPage extends AppCompatActivity {
         username = txtEmail.getText().toString().trim();
         password = txtPwd.getText().toString().trim();
         dbr = FirebaseDatabase.getInstance().getReference("users");
-
         button.setOnClickListener(new View.OnClickListener() {
         public void onClick(View v) {
-
+            openMainPage();
         }
         });
-
         buttonReg = (TextView) findViewById(R.id.lnkRegister);
         buttonReg.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -63,7 +60,6 @@ public class loginPage extends AppCompatActivity {
                 openMainPageRet();
             }
         });
-
     }
     @Override
     protected void onStart(){
@@ -73,14 +69,13 @@ public class loginPage extends AppCompatActivity {
             public void onDataChange( DataSnapshot dataSnapshot) {
 
                 for(DataSnapshot contactSnapshot: dataSnapshot.getChildren()) {
-                    users users = contactSnapshot.getValue(users.class);
-                    if(users.getUsersUn().equals(username)||users.getUsersPsw()==password){
+                    users user = contactSnapshot.getValue(users.class);
+                    if(user.getUsersUn().equals(username) && user.getUsersPsw().equals(password)){
                         openMainPage();
                     }
                 }
 
             }
-
             @Override
             public void onCancelled( DatabaseError databaseError) {
 

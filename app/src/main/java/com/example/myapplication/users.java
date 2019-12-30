@@ -4,7 +4,7 @@ public class users {
 String uId;
 String usersUn;
 String usersPsw;
-String usersPswc;
+//String usersPswc;
 String usersPn;
 String usersEml;
 
@@ -12,11 +12,11 @@ String usersEml;
 
     }
 
-    public users(String uId,String usersUn, String usersPsw, String usersPswc, String usersPn, String usersEml) {
+    public users(String uId,String usersUn, String usersPsw, String usersPn, String usersEml) {
         this.uId = uId;
         this.usersUn = usersUn;
         this.usersPsw = usersPsw;
-        this.usersPswc = usersPswc;
+//        this.usersPswc = usersPswc;
         this.usersPn = usersPn;
         this.usersEml = usersEml;
     }
@@ -29,9 +29,9 @@ String usersEml;
         return usersPsw;
     }
 
-    public String getUsersPswc() {
-        return usersPswc;
-    }
+//    public String getUsersPswc() {
+//        return usersPswc;
+//    }
 
     public String getUsersPn() {
         return usersPn;

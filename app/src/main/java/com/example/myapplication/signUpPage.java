@@ -77,7 +77,7 @@ public class signUpPage extends AppCompatActivity {
 
             if(password.contentEquals(passwordConfrim)){
                 String id = dbr.push().getKey();
-                users user = new users(id, username, password, passwordConfrim, phoneNumber, email);
+                users user = new users(id, username, password, phoneNumber, email);
                 System.out.println(user+" , "+user.toString());
                 dbr.child(id).setValue(user);
                 //Toast.makeText(this,user.toString(),Toast.LENGTH_LONG).show();
